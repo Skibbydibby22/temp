@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+    <body onload="onLoad()">
+        <h1 class="title">University Of Illinois</h1>
+
+        <table class="tableIndex">
+            <tr>
+                <th>
+                    <div class="cost" id="cost" onclick="costClick()">
+                        <p>Tuition</p>
+                    </div>
+                </th>
+                <th>
+                    <div class="loan" id="loan" onclick="loanClick()">
+                        <p>Loan</p>
+                    </div>
+                </th>
+                <th>
+                    <div class="facts" id="facts" onclick="factsClick()">
+                        <p>Facts</p>
+                    </div>
+                </th>
+            </tr>
+        </table>
+
+        <div id="cover" class="cover"></div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

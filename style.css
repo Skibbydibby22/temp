@@ -1,0 +1,100 @@
+.tableIndex {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    text-align: left;
+    width: 100%;
+}
+
+.tableMain {
+    border-collapse: collapse;
+}
+
+.thMain {
+    text-align: left;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.tableMain, .thMain {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    
+}
+
+body {
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: xx-large;
+}
+
+il {
+    padding: 0px;
+}
+
+.loan, .cost, .facts, .buttonAnimation {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.loan p, .cost p, .facts p, .buttonAnimation p{
+    padding: 62px 0;
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.loan:hover, .cost:hover, .facts:hover {
+    cursor: pointer;
+    background-color: rgb(60, 60, 60);
+}
+
+.buttonAnimation {
+    color: black;
+    animation-name: button;
+    animation-duration: 2s;
+}
+
+.buttonAnimation p {
+    color: black;
+}
+
+@keyframes button {
+    to {transform: scale(30);}
+}
+
+.cover {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+.coverIndex {
+    background-color: black;
+    border-radius: 100%;
+    position: fixed;
+    width: 150%;
+    height: 150vw;
+    top: -100%;
+    left: -25%;
+    animation-name: intro;
+    animation-duration: 1s;
+}
+
+@keyframes intro {
+    0% {top: -100%;}
+    100% {top: -100%;}
+    to {transform: scale(0);}
+}
+
+h1.title {
+    text-align: center;
+}

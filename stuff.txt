@@ -1,0 +1,12 @@
+University Of Illinois
+	all 50 states are represented on capmpus
+	they have a 85% graduation rate
+costs:
+	freshman: $32284.41
+	sophomore: $33414.37
+	junior: $34583.87
+	senior: $45794.3
+total: $126076.95
+loan ammount: $25215.39
+loan month: $273.65
+loan actual: $32838.39
